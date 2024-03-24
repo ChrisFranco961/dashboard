@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+<script src="./code.js"></script>
+</head>
+<body>
+    <div id="container">
+       <div id="sidebar">
+            <div>  <div  id="titlebackground"><div id="title">Dashboard</div> </div></div>
+            <button>Home</button>
+            <button>Profile</button>
+            <button>Contact</button>
+            <button>Settings</button>
+       </div>
+    
+        <div id="rightside">
+            <div id="top">
+                <div id="searchbar"> <input type="text" id="search" name="search" >
+                <button id="searchbutton" onclick="searchprojects()" type="submit">Search</button></div>
+                <div id='name'>
+                    <img id="logo" src="./logo.png" alt="">
+                    <div id="username">Christian Francis</div>
+                </div>
+            </div>
+            <div id="center">
+                <div id="projects">
+                    <button onclick="openrecipe()"><p>odin recipes</p><img id="recipe" src="./projectbuttons/Screenshot from 2024-03-23 18-32-09.png" alt=""></button>
+                    <button onclick="opensignup()" ><p>odin signup page</p><img id="signup" src="./projectbuttons/Screenshot from 2024-03-23 18-32-55.png" alt=""></button>
+                    <button onclick="opensketch()"><p>odin etch and sketch</p><img id="etch" src="./projectbuttons/Screenshot from 2024-03-23 18-33-48.png" alt=""></button>
+                    <button onclick="openhome()"><p>odin homepage</p><img id="homepage" src="./projectbuttons/Screenshot from 2024-03-23 18-34-33.png" alt=""></button>
+                    <button onclick="openrock()"><p>odin rock paper scissors</p><img id="rock" src="./projectbuttons/Screenshot from 2024-03-23 18-36-18.png" alt=""></button>
+                    <button onclick="opencalc()"><p>odin calculator</p><img id="calculator" src="./projectbuttons/Screenshot from 2024-03-23 18-37-51.png" alt=""></button>
+                    
+                    
+                    
+                </div>
+               <div id="announce_container"> <div id="announcements">Announcements</div></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
